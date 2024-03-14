@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Kayıt Formu</h2>
+
+<form>
+  <!-- Adı ve soyadı Input -->
+  <label>Ad:</label><br>
+  <input type="text" required><br>
+
+  <label>Soyad:</label><br>
+  <input type="text" required><br>
+
+  <!-- Email Input -->
+  <label>E-posta:</label><br>
+  <input type="email" required><br>
+
+  <!-- Şifre Input -->
+  <label>Şifre:</label><br>
+  <input type="password" required><br>
+
+  <!-- Cinsiyet Input -->
+  <p>Cinsiyet:</p>
+  <input type="radio" name="cinsiyet" value="Erkek" required>
+  <label>Erkek</label><br>
+  <input type="radio"  name="cinsiyet" value="Kadın" required>
+  <label >Kadın</label><br>
+
+  <!-- Meyveler Input -->
+  <p>Sevdiğiniz meyve :</p>
+  <select name="meyver">
+    <option value="Elma">Elma</option>
+    <option value="Muz">Muz</option>
+    <option value="Armut">Armut</option>
+  </select><br>
+
+
+  <!-- Textarea Input -->
+  <label for="message">Mesaj:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+  <!-- Gönder Button -->
+  <input type="submit" value="Gönder">
+
+</form>
+
+</body>
+</html>
